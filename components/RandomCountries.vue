@@ -12,33 +12,6 @@
                     </p>
                 </div>
             </CountryCard>
-            <CountryCard>
-                <div class="flex flex-col gap-2 w-full text-left">
-                    <h2 class="card-title">London</h2>
-                    <p>Next Holiday</p>
-                    <p>
-                        <time datetime="2024-09-26">September 26</time>
-                    </p>
-                </div>
-            </CountryCard>
-            <CountryCard>
-                <div class="flex flex-col gap-2 w-full text-left">
-                    <h2 class="card-title">London</h2>
-                    <p>Next Holiday</p>
-                    <p>
-                        <time datetime="2024-09-26">September 26</time>
-                    </p>
-                </div>
-            </CountryCard>
-            <CountryCard>
-                <div class="flex flex-col gap-2 w-full text-left">
-                    <h2 class="card-title">London</h2>
-                    <p>Next Holiday</p>
-                    <p>
-                        <time datetime="2024-09-26">September 26</time>
-                    </p>
-                </div>
-            </CountryCard>
         </div>
     </div>
 </template>

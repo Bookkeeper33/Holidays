@@ -1,9 +1,6 @@
 <template>
-    <div class="flex p-5">
-        <div class="flex flex-col gap-4 flex-1">
-            <SearchBar />
-            <CountryList />
-        </div>
+    <div class="flex gap-10 p-5">
+        <CountrySearch class="flex-1" />
         <RandomCountries class="flex-1" />
     </div>
 </template>
