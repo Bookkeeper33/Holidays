@@ -1,10 +1,16 @@
-# Nuxt 3 Minimal Starter
+# Cloning and installation
+Clone this repository to your local machine. To do this, click on the green "Code" button at the top right of list of files and copy the link in the prompt. Then, run the following command in your terminal:
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+    git clone <link>
 
-## Setup
+This will create a folder called 'ruby-exercises' inside the directory you ran the command in.
 
-Make sure to install the dependencies:
+CD into that folder:
+
+    cd nuxt-app
+
+
+Next make sure to install the dependencies:
 
 ```bash
 # npm
@@ -22,20 +28,20 @@ bun install
 
 ## Development Server
 
-Start the development server on `http://localhost:3000`:
+To locally run project , start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
-npm run dev
+npm run dev -o
 
 # pnpm
-pnpm run dev
+pnpm run dev -o
 
 # yarn
-yarn dev
+yarn dev -o
 
 # bun
-bun run dev
+bun run dev -o
 ```
 
 ## Production
@@ -73,3 +79,12 @@ bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## Stack
+Technologies:
+    - Nuxt 3
+    - TypeScript
+    - TailwindCSS
+    - DaisyUI
+Used API:
+    - https://date.nager.at/
