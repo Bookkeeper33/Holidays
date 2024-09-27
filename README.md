@@ -94,8 +94,9 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ## Stack
 
-Technologies: 
-    - Nuxt 3 
-    - TypeScript 
-    - TailwindCSS 
+Technologies:
+
+    - Nuxt 3
+    - TypeScript
+    - TailwindCSS
     - DaisyUI
