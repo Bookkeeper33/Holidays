@@ -1,4 +1,5 @@
 # Cloning and installation
+
 Clone this repository to your local machine. To do this, click on the green "Code" button at the top right of list of files and copy the link in the prompt. Then, run the following command in your terminal:
 
     git clone <link>
@@ -8,7 +9,6 @@ This will create a folder called 'ruby-exercises' inside the directory you ran t
 CD into that folder:
 
     cd nuxt-app
-
 
 Next make sure to install the dependencies:
 
@@ -26,22 +26,34 @@ yarn install
 bun install
 ```
 
+## Before running server
+
+Create .env variable in Holidays
+
+    touch .env
+
+Open .env file and add
+
+    API_BASE_URL=https://date.nager.at/api/v3
+
+Then save the file and run dev server
+
 ## Development Server
 
 To locally run project , start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
-npm run dev -o
+npm run dev
 
 # pnpm
-pnpm run dev -o
+pnpm run dev
 
 # yarn
-yarn dev -o
+yarn dev
 
 # bun
-bun run dev -o
+bun run dev
 ```
 
 ## Production
@@ -81,10 +93,6 @@ bun run preview
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
 
 ## Stack
-Technologies:
-    - Nuxt 3
-    - TypeScript
-    - TailwindCSS
-    - DaisyUI
-Used API:
-    - https://date.nager.at/
+
+Technologies: - Nuxt 3 - TypeScript - TailwindCSS - DaisyUI
+Used API: - https://date.nager.at/
