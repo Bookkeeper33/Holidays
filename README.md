@@ -94,5 +94,8 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ## Stack
 
-Technologies: - Nuxt 3 - TypeScript - TailwindCSS - DaisyUI
-Used API: - https://date.nager.at/
+Technologies: 
+    - Nuxt 3 
+    - TypeScript 
+    - TailwindCSS 
+    - DaisyUI
